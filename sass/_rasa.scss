@@ -1,0 +1,20 @@
+.rasa{
+      height: 100vh;
+      background-color: #e8e8e8;
+      transform: translateX(-100%);
+
+      &__title {
+          padding-top: 10vh;
+          margin-left: var(--margin-page);
+          font-size: var(--title);
+          font-weight: normal;
+
+      }
+
+      &__content {
+          padding-top: 5vw;
+          margin: 0 var(--margin-page);
+          font-size: var(--content);
+          font-weight: 300;
+      }
+}

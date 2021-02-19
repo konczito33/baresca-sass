@@ -1,0 +1,39 @@
+.main {
+    height: 90vh;
+    background-color: #e0e0e0;
+    position: relative;
+
+    &__title {
+        font-size: var(--title);
+        font-weight: normal;
+        margin-top:  10vh;
+        padding-top: 10vh;
+        margin-left: var(--margin-page);
+        animation: show var(--show-time)
+    }
+
+    &__subtitle {
+        font-size: var(--content);
+        font-weight: 300;
+        padding-top: 5vh;
+        margin: 0 var(--margin-page);
+        animation: show var(--show-time)
+    }
+
+    &__image {
+        width: 100%;
+        padding: 5vh var(--margin-page);
+        animation: show var(--show-time);
+    }
+
+    &__arrow {
+        position: absolute;
+        bottom: 10px;
+        left: 50%;
+        transform: translate(-50%, 0);
+        color: var(--black);
+        opacity: 0.8;
+        font-size: 20px;
+        animation: arrow 1.5s infinite ;
+    }
+}
