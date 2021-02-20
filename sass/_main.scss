@@ -7,8 +7,9 @@
         font-size: var(--title);
         font-weight: normal;
         margin-top:  10vh;
-        padding-top: 10vh;
+        padding-top: 5vh;
         margin-left: var(--margin-page);
+        margin-right: var(--margin-page);
         animation: show var(--show-time)
     }
 
@@ -28,7 +29,7 @@
 
     &__arrow {
         position: absolute;
-        bottom: 10px;
+        bottom: 30px;
         left: 50%;
         transform: translate(-50%, 0);
         color: var(--black);
